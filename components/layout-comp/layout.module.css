@@ -1,0 +1,7 @@
+.div {
+  display: grid;
+  min-height: 100dvh;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  align-items: center;
+}
