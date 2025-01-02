@@ -5,7 +5,7 @@ import { CatIcon } from "../../ui/icons/cat-icon/index";
 import { Button, SecondaryButton, OutlineButton } from "../../ui/buttons";
 import { Title, Subtitle, Body } from "../../ui/typography";
 
-export function UI() {
+export default function UI() {
   return (
     <>
       <div className={styles["typography-container"]}>

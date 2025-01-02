@@ -1,5 +1,5 @@
 import Layout from "../components/layout-comp/index";
-import { UI } from "./ui-page";
+import UI from "./ui-page";
 
 export default function Home() {
   return (
