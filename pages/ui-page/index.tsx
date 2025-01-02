@@ -1,9 +1,9 @@
 import styles from "./ui.module.css";
-import { HippoIcon } from "@/ui/icons/hippo-icon/index";
-import { HorseIcon } from "@/ui/icons/horse-icon/index";
-import { CatIcon } from "@/ui/icons/cat-icon/index";
-import { Button, SecondaryButton, OutlineButton } from "@/ui/buttons";
-import { Title, Subtitle, Body } from "@/ui/typography";
+import { HippoIcon } from "../../ui/icons/hippo-icon/index";
+import { HorseIcon } from "../../ui/icons/horse-icon/index";
+import { CatIcon } from "../../ui/icons/cat-icon/index";
+import { Button, SecondaryButton, OutlineButton } from "../../ui/buttons";
+import { Title, Subtitle, Body } from "../../ui/typography";
 
 export function UI() {
   return (
