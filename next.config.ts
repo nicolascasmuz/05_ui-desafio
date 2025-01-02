@@ -1,11 +1,10 @@
 import type { NextConfig } from "next";
-import withSvgr from "next-svgr";
 
-const nextConfig: NextConfig = withSvgr({
+const nextConfig: NextConfig = {
   reactStrictMode: true,
   compiler: {
     styledComponents: true,
   },
-});
+};
 
 export default nextConfig;
